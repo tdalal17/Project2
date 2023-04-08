@@ -175,6 +175,18 @@ input {
         font-size: 30px;
         text-align: center;
     }
+    .stripe {
+        visibility: hidden;
+    }
+    .linksdiv {
+        z-index: 1;
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: none;
+        margin: auto;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 800px) {
 
