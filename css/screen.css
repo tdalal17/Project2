@@ -169,6 +169,12 @@ input {
     input {
         width: 90%;
     }
+    .mainlink {
+        z-index: 1;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 800px) {
 
