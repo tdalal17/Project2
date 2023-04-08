@@ -90,6 +90,16 @@ body {
     margin: auto;
     text-align: center;
 }
+.box2 {
+    z-index: 1;
+    width: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(216, 205, 57);
+    margin: auto;
+}
 .linksdiv {
     z-index: 1;
     width: 500px;
