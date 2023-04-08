@@ -25,18 +25,26 @@ body {
     text-align: center;
     padding-bottom: 25px;
     background-color: black;
+    font-family: 'Cinzel', serif;
+    padding-top: 15px;
 }
 .subtext {
-    font-family: Arial;
+    font-family: 'Cardo', serif;
     font-size: 20px;
 }
 .subtitle {
-    font-family: Arial;
+    font-family: 'Cardo', serif;
     font-size: 32px;
     text-align: center;
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.redacted {
+    font-family: 'Redacted Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: black;
 }
 .mainlink {
     z-index: 1;
@@ -56,7 +64,7 @@ body {
     color: white;
     padding: 5px;
     padding-top: 20px;
-    font-family: Arial;
+    font-family: 'Cardo', serif;
     font-size: 20px;
 }
 .link:hover {
@@ -70,7 +78,7 @@ body {
     color: white;
     padding: 5px;
     text-align: center;
-    font-family: Arial;
+    font-family: 'Cardo', serif;
     font-size: 20px;
 }
 .link2:hover {
@@ -99,6 +107,7 @@ body {
     padding-bottom: 25px;
     background-color: rgb(216, 205, 57);
     margin: auto;
+    text-align: left;
 }
 .linksdiv {
     z-index: 1;
@@ -114,8 +123,12 @@ body {
 .button {
     background-color: black;
     color: white;
+    font-family: 'Cardo', serif;
 }
 .button:hover {
     background-color: white;
     color: black;
+}
+input {
+    padding-right: 200px;
 }
