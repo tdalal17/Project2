@@ -157,7 +157,7 @@ input {
         padding-top: 25px;
         padding-bottom: 25px;
         background-color: rgb(216, 205, 57);
-        margin: auto;
+
         text-align: center;
     }
     .box2 {
@@ -166,8 +166,11 @@ input {
         padding-top: 25px;
         padding-bottom: 25px;
         background-color: rgb(216, 205, 57);
-        margin: auto;
+
         text-align: left;
+    }
+    input {
+        width: 90%;
     }
 }
 @media screen and (min-width: 800px) {
