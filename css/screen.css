@@ -1,8 +1,9 @@
 html {
-
+    height: 100%;
+    width: 100%;
 }
 body {
-
+    overflow-y: auto;
 }
 .stripe {
     width: 20%;
@@ -62,6 +63,20 @@ body {
     color: black;
 }
 .link:visited {
+    text-decoration: none;
+}
+.link2 {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+.link2:hover {
+    color: black;
+}
+.link2:visited {
     text-decoration: none;
 }
 .box1 {
