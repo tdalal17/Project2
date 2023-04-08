@@ -139,6 +139,7 @@ input {
     }
     body {
         overflow-y: auto;
+        background-color: black;
     }
     .title {
         z-index: inherit;
