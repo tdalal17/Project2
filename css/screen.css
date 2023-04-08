@@ -153,10 +153,9 @@ input {
     }
     .box1 {
         z-index: 1;
-        margin: auto;
         width: 100%;
         background-color: rgb(216, 205, 57);
-        text-align: center;
+        text-align: left;
     }
     .box2 {
         z-index: 1;
@@ -164,7 +163,6 @@ input {
         padding-top: 25px;
         padding-bottom: 25px;
         background-color: rgb(216, 205, 57);
-
         text-align: left;
     }
     input {
