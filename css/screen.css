@@ -117,7 +117,6 @@ body {
     padding-right: 100px;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: none;
     margin: auto;
     text-align: center;
 }
@@ -200,7 +199,7 @@ input {
         z-index: 1;
         padding-top: 45px;
         padding-bottom: 25px;
-        background-color: none;
+        background-color: black;
         margin: auto;
         text-align: center;
         width: 100%;
