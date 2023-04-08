@@ -108,6 +108,7 @@ body {
     background-color: rgb(216, 205, 57);
     margin: auto;
     text-align: left;
+    display: grid;
 }
 .linksdiv {
     z-index: 1;
@@ -131,6 +132,24 @@ body {
 }
 input {
     padding-right: 200px;
+}
+#email {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#gpa {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
 }
 @media screen and (max-width: 600px) {
     html {
@@ -187,8 +206,20 @@ input {
     }
 }
 @media screen and (min-width: 800px) {
-
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        overflow-y: auto; 
+    }
 }
 @media screen and (min-width: 1200px) {
-
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        overflow-y: auto;   
+    }
 }
