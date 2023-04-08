@@ -154,6 +154,7 @@ input {
     .box1 {
         z-index: 1;
         margin: auto;
+        width: 100%;
         background-color: rgb(216, 205, 57);
         text-align: center;
     }
@@ -181,7 +182,7 @@ input {
     .linksdiv {
         z-index: 1;
         width: 100%;
-        padding-top: 25px;
+        padding-top: 45px;
         padding-bottom: 25px;
         background-color: none;
         margin: auto;
