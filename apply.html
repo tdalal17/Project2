@@ -43,10 +43,17 @@
         <p class="subtitle">Apply Here</p>
         <div class="box1">
             <p class="subtext">Apply to Yale SOA</p>
+            <form id="apply" action="#null" method="get" autocomplete="on">
+                <label class="subtext">Email</label>
+                <input type="email" id="email" name="email" pattern="^.+@.+$" placeholder="example@email.com">
+                <label class="subtext">Name</label>
+                <input type="text" id="name" name="name" placeholder="First & Last Name">
+                <label class="subtext">GPA</label>
+                <input type="text" id="gpa" name="gpa" placeholder="GPA (4.0 Scale)">
+                <p></p>
+                <button type="submit" class="button" id="button">Apply!</button>
+            </form>
         </div>
     </div>
-    
-
-
 </body>
 </html>

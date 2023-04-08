@@ -101,3 +101,11 @@ body {
     margin: auto;
     text-align: center;
 }
+.button {
+    background-color: black;
+    color: white;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
