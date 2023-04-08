@@ -150,6 +150,24 @@ input {
         font-family: 'Cinzel', serif;
         padding-top: 15px;
     }
+    .box1 {
+        z-index: 1;
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: rgb(216, 205, 57);
+        margin: auto;
+        text-align: center;
+    }
+    .box2 {
+        z-index: 1;
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: rgb(216, 205, 57);
+        margin: auto;
+        text-align: left;
+    }
 }
 @media screen and (min-width: 800px) {
 
