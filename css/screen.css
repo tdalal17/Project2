@@ -37,7 +37,32 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding-top: 20px;
+    font-family: Arial;
+    font-size: 20px;
+}
+.link:hover {
+    color: black;
+}
+.link:visited {
+    text-decoration: none;
+}
 .box1 {
+    z-index: 1;
+    width: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(216, 205, 57);
+    margin: auto;
+    text-align: center;
+}
+.box2 {
     z-index: 1;
     width: 500px;
     padding-left: 100px;
