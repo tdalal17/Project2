@@ -25,7 +25,7 @@ body {
     text-align: center;
     padding-bottom: 25px;
     background-color: black;
-    font-family: 'Cinzel', serif;
+    font-family: serif;
     padding-top: 15px;
 }
 .subtext {
@@ -157,7 +157,7 @@ input {
     }
     body {
         overflow-y: auto;
-        background-color: black;
+        background-color: #E9ECF0;
     }
     .title {
         z-index: inherit;
