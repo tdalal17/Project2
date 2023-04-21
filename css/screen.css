@@ -68,7 +68,7 @@ body {
     font-size: 20px;
 }
 .link:hover {
-    color: black;
+    color: rgb(167, 19, 216);
 }
 .link:visited {
     text-decoration: none;
@@ -82,7 +82,7 @@ body {
     font-size: 20px;
 }
 .link2:hover {
-    color: black;
+    color:rgb(167, 19, 216);
 }
 .link2:visited {
     text-decoration: none;
