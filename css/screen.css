@@ -125,6 +125,7 @@ body {
     color: white;
     font-family: 'Cardo', serif;
     width: auto;
+    height: auto;
 }
 .button:hover {
     background-color: white;
