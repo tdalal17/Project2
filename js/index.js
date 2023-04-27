@@ -12,10 +12,12 @@ function ValidateEmail(email) {
   }
   function isValidPhoneNumber(phoneNumber) {
     phoneNumber = phoneNumber.replace(/\D/g, '');
-    
+
     if (phoneNumber.length !== 10) {
       return false;
     }
   
-  
+  if (['0', '1'].includes(phoneNumber.charAt(0))) {
+    return false;}
+
   }
