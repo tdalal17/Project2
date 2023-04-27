@@ -19,5 +19,6 @@ function ValidateEmail(email) {
   
   if (['0', '1'].includes(phoneNumber.charAt(0))) {
     return false;}
-
+    
+    return true;
   }
