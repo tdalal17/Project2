@@ -11,4 +11,11 @@ function ValidateEmail(email) {
       return (false)
   }
   function isValidPhoneNumber(phoneNumber) {
-    phoneNumber = phoneNumber.replace(/\D/g, '');}
+    phoneNumber = phoneNumber.replace(/\D/g, '');
+    
+    if (phoneNumber.length !== 10) {
+      return false;
+    }
+  
+  
+  }
