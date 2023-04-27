@@ -10,3 +10,5 @@ function ValidateEmail(email) {
       alert("You have entered an invalid email address!")
       return (false)
   }
+  function isValidPhoneNumber(phoneNumber) {
+    phoneNumber = phoneNumber.replace(/\D/g, '');}
