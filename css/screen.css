@@ -124,6 +124,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Cardo', serif;
+    width: auto;
 }
 .button:hover {
     background-color: white;
